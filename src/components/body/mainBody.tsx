@@ -153,6 +153,7 @@ function MainBody() {
               <div
                 className={`${free ? "temp1" : "temp2"}`}
                 onClick={() => {
+                  const asdf = 1;
                   setFree(!free);
                 }}
               >
